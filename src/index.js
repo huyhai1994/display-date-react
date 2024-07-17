@@ -1,5 +1,8 @@
 import ReactDOM from "react-dom/client";
-/*TODO: Khai báo biến root và khởi tạo với ReactDOM.createRoot(), sau đó truyền element vừa tạo vào hàm root.render() để render element ra U*/
+/*TODO: Khai báo biến root và khởi tạo với ReactDOM.createRoot(), sau đó truyền element vừa tạo vào hàm root.render() để render element ra U
+          Nhung vao day bootrap
+          SPR chay moi tren index.js vi chua DOM root
+          */
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const tick = () => {
